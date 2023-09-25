@@ -1,6 +1,7 @@
 [
     {
-        "picture": "health.jpg",
+        "id": 1,
+        "image": "https://i.ibb.co/dJPjDLp/health-donation1.jpg",
         "title": "Support Medical Research",
         "category": "Health",
         "category_bg": "#ff000066",
@@ -10,7 +11,8 @@
         "price": 500
     },
     {
-        "picture": "education.jpg",
+        "id": 2,
+        "image": "https://i.ibb.co/GHRXQTL/education-donation1.jpg",
         "title": "Scholarship for Underprivileged Students",
         "category": "Education",
         "category_bg": "#00ff0066",
@@ -20,7 +22,8 @@
         "price": 300
     },
     {
-        "picture": "food.jpg",
+        "id": 3,
+        "image": "https://i.ibb.co/wrsnm4t/food-donation1.jpg",
         "title": "Emergency Food Aid",
         "category": "Food",
         "category_bg": "#0000ff66",
@@ -30,7 +33,8 @@
         "price": 200
     },
     {
-        "picture": "clothing.jpg",
+        "id": 4,
+        "image": "https://i.ibb.co/5Tb38VC/clothing-donation1.jpg",
         "title": "Warm Winter Clothes for the Homeless",
         "category": "Clothing",
         "category_bg": "#ffa50066",
@@ -40,7 +44,8 @@
         "price": 250
     },
     {
-        "picture": "health2.jpg",
+        "id": 5,
+        "image": "https://i.ibb.co/WthtNXh/health-donation2.jpg",
         "title": "Support Mental Health Awareness",
         "category": "Health",
         "category_bg": "#ff000066",
@@ -50,17 +55,19 @@
         "price": 350
     },
     {
-        "picture": "education2.jpg",
+        "id": 6,
+        "image": "https://i.ibb.co/DVctQ4q/education-donation2.jpg",
         "title": "Build Schools in Developing Countries",
         "category": "Education",
         "category_bg": "#00ff0066",
         "card_bg": "#00ff0033",
         "text_button_bg": "#00ff00b3",
-        "description": "Support the construction of schools and the provision of quality education in remote areas of developing countries. Your contribution bridges the educational gap, offering children in underserved communities the opportunity to learn, grow, and create a brighter future for themselves and their communities.",
+        "description": "Support the construction of schools and the provision of quality education in remote areas of developing countries. Your contribution bridges the educational gap, offering children in under-served communities the opportunity to learn, grow, and create a brighter future for themselves and their communities.",
         "price": 400
     },
     {
-        "picture": "food2.jpg",
+        "id": 7,
+        "image": "https://i.ibb.co/N671mJB/food-donation2.jpg",
         "title": "Meals for Elderly in Need",
         "category": "Food",
         "category_bg": "#0000ff66",
@@ -70,7 +77,8 @@
         "price": 150
     },
     {
-        "picture": "clothing2.jpg",
+        "id": 8,
+        "image": "https://i.ibb.co/6JR3xLt/clothing-donation2.jpg",
         "title": "Donate Clothing to Orphanages",
         "category": "Clothing",
         "category_bg": "#ffa50066",
@@ -80,7 +88,8 @@
         "price": 300
     },
     {
-        "picture": "health3.jpg",
+        "id": 9,
+        "image": "https://i.ibb.co/sRHb0Dj/health-donation3.jpg",
         "title": "Support Cancer Patients",
         "category": "Health",
         "category_bg": "#ff000066",
@@ -90,17 +99,19 @@
         "price": 450
     },
     {
-        "picture": "education3.jpg",
+        "id": 10,
+        "image": "https://i.ibb.co/5jKLJ8d/education-donation3.jpg",
         "title": "Books for Underprivileged Schools",
         "category": "Education",
         "category_bg": "#00ff0066",
         "card_bg": "#00ff0033",
         "text_button_bg": "#00ff00b3",
-        "description": "Promote education in low-income areas by donating books and educational materials to underprivileged schools. Your support enriches the learning experience for children in underserved communities, empowering them with knowledge and opportunities for a brighter future.",
+        "description": "Promote education in low-income areas by donating books and educational materials to underprivileged schools. Your support enriches the learning experience for children in under-served communities, empowering them with knowledge and opportunities for a brighter future.",
         "price": 250
     },
     {
-        "picture": "food3.jpg",
+        "id": 11,
+        "image": "https://i.ibb.co/RYj9FfT/food-donation3.jpg",
         "title": "Clean Water for Communities",
         "category": "Food",
         "category_bg": "#0000ff66",
@@ -110,7 +121,8 @@
         "price": 350
     },
     {
-        "picture": "clothing3.jpg",
+        "id": 12,
+        "image": "https://i.ibb.co/yS63pfw/clothing-donation3.jpg",
         "title": "Warm Blankets for the Homeless",
         "category": "Clothing",
         "category_bg": "#ffa50066",
