@@ -1,0 +1,122 @@
+[
+    {
+        "picture": "health.jpg",
+        "title": "Support Medical Research",
+        "category": "Health",
+        "category_bg": "#ff000066",
+        "card_bg": "#ff000033",
+        "text_button_bg": "#ff0000b3",
+        "description": "Your generous donation helps fund critical medical research projects aimed at improving healthcare worldwide. By supporting this cause, you contribute to groundbreaking discoveries and innovative treatments for a wide range of diseases and conditions. Together, we can make a significant and lasting impact on the health and well-being of individuals and communities across the globe.",
+        "price": 500
+    },
+    {
+        "picture": "education.jpg",
+        "title": "Scholarship for Underprivileged Students",
+        "category": "Education",
+        "category_bg": "#00ff0066",
+        "card_bg": "#00ff0033",
+        "text_button_bg": "#00ff00b3",
+        "description": "Empower underprivileged children with the gift of education. Your support ensures that deserving students, regardless of their economic circumstances, have access to quality education. By breaking the cycle of poverty, we pave the way for a brighter future for these young minds.",
+        "price": 300
+    },
+    {
+        "picture": "food.jpg",
+        "title": "Emergency Food Aid",
+        "category": "Food",
+        "category_bg": "#0000ff66",
+        "card_bg": "#0000ff33",
+        "text_button_bg": "#0000ffb3",
+        "description": "In times of crisis and disaster, your donation provides immediate relief by helping feed hungry families. By ensuring access to nutritious meals, we provide not only sustenance but also hope during challenging circumstances. Join us in making a difference in their lives.",
+        "price": 200
+    },
+    {
+        "picture": "clothing.jpg",
+        "title": "Warm Winter Clothes for the Homeless",
+        "category": "Clothing",
+        "category_bg": "#ffa50066",
+        "card_bg": "#ffa50033",
+        "text_button_bg": "#ffa500b3",
+        "description": "Help protect homeless individuals from the harsh cold of winter by donating warm clothing. Your contribution offers comfort and dignity to those living on the streets, providing essential warmth and protection against the elements. Join us in making a positive impact.",
+        "price": 250
+    },
+    {
+        "picture": "health2.jpg",
+        "title": "Support Mental Health Awareness",
+        "category": "Health",
+        "category_bg": "#ff000066",
+        "card_bg": "#ff000033",
+        "text_button_bg": "#ff0000b3",
+        "description": "Your contribution helps raise awareness and provides crucial resources for mental health issues. By supporting this cause, you enable programs that reduce stigma, increase access to care, and improve the overall well-being of individuals living with mental health conditions. Join us in promoting mental health and well-being.",
+        "price": 350
+    },
+    {
+        "picture": "education2.jpg",
+        "title": "Build Schools in Developing Countries",
+        "category": "Education",
+        "category_bg": "#00ff0066",
+        "card_bg": "#00ff0033",
+        "text_button_bg": "#00ff00b3",
+        "description": "Support the construction of schools and the provision of quality education in remote areas of developing countries. Your contribution bridges the educational gap, offering children in underserved communities the opportunity to learn, grow, and create a brighter future for themselves and their communities.",
+        "price": 400
+    },
+    {
+        "picture": "food2.jpg",
+        "title": "Meals for Elderly in Need",
+        "category": "Food",
+        "category_bg": "#0000ff66",
+        "card_bg": "#0000ff33",
+        "text_button_bg": "#0000ffb3",
+        "description": "Your generous donation ensures that elderly individuals who can't afford nutritious meals receive the comfort and sustenance they need. By providing essential nourishment, you improve their health and well-being, bringing hope and relief to vulnerable seniors in need.",
+        "price": 150
+    },
+    {
+        "picture": "clothing2.jpg",
+        "title": "Donate Clothing to Orphanages",
+        "category": "Clothing",
+        "category_bg": "#ffa50066",
+        "card_bg": "#ffa50033",
+        "text_button_bg": "#ffa500b3",
+        "description": "Make a difference in the lives of children living in orphanages and foster care by providing them with clothing. Your contribution brings warmth and happiness, ensuring that these young individuals have comfortable clothing to wear and feel a sense of care and support.",
+        "price": 300
+    },
+    {
+        "picture": "health3.jpg",
+        "title": "Support Cancer Patients",
+        "category": "Health",
+        "category_bg": "#ff000066",
+        "card_bg": "#ff000033",
+        "text_button_bg": "#ff0000b3",
+        "description": "Offer essential financial assistance and compassionate care to individuals courageously battling cancer. Your donation provides relief and hope, easing the financial burden and supporting them in their fight against this devastating disease. Join us in making a meaningful impact.",
+        "price": 450
+    },
+    {
+        "picture": "education3.jpg",
+        "title": "Books for Underprivileged Schools",
+        "category": "Education",
+        "category_bg": "#00ff0066",
+        "card_bg": "#00ff0033",
+        "text_button_bg": "#00ff00b3",
+        "description": "Promote education in low-income areas by donating books and educational materials to underprivileged schools. Your support enriches the learning experience for children in underserved communities, empowering them with knowledge and opportunities for a brighter future.",
+        "price": 250
+    },
+    {
+        "picture": "food3.jpg",
+        "title": "Clean Water for Communities",
+        "category": "Food",
+        "category_bg": "#0000ff66",
+        "card_bg": "#0000ff33",
+        "text_button_bg": "#0000ffb3",
+        "description": "Ensure access to clean and safe drinking water for communities in need. Your donation makes a significant impact on improving health and well-being in disadvantaged areas, providing a basic necessity that enhances the quality of life for those we serve.",
+        "price": 350
+    },
+    {
+        "picture": "clothing3.jpg",
+        "title": "Warm Blankets for the Homeless",
+        "category": "Clothing",
+        "category_bg": "#ffa50066",
+        "card_bg": "#ffa50033",
+        "text_button_bg": "#ffa500b3",
+        "description": "During the winter months, your support makes a difference by distributing warm blankets to homeless individuals. Your generous contribution provides comfort and protection from the cold, helping those in need survive the harsh winter and offering a glimmer of warmth and hope.",
+        "price": 200
+    }
+]
