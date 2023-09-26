@@ -6,7 +6,7 @@ DonationCards.propTypes = {
 };
 
 function DonationCards({ donation }) {
-    console.log(donation);
+    // console.log(donation);
 
     const { id, image, description, price, title, text_button_bg } = donation || {};
 
