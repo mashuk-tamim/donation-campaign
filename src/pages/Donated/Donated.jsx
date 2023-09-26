@@ -8,12 +8,9 @@ const Donated = () => {
 
     const [seeAll, setSeeAll] = useState(false);
 
-    const donations = JSON.parse(localStorage.getItem('donation'));
-
-    console.log(donations)
-
     const [donationLength, setDonationLength] = useState(0)
 
+    const donations = JSON.parse(localStorage.getItem('donation'));
 
     useEffect(() => {
         if (donations) {
