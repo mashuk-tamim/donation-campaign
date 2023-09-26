@@ -1,4 +1,4 @@
-
+import swal from 'sweetalert';
 import PropTypes from 'prop-types';
 
 DonationCards.propTypes = {
@@ -8,7 +8,34 @@ DonationCards.propTypes = {
 function DonationCards({ donation }) {
     console.log(donation);
 
-    const { image, description, price, title, text_button_bg } = donation || {};
+    const { id, image, description, price, title, text_button_bg } = donation || {};
+
+    const handleDonate = () => {
+
+        const donatedArray = [];
+
+        const donated = JSON.parse(localStorage.getItem('donation'));
+
+        if (!donated) {
+            donatedArray.push(donation);
+            localStorage.setItem('donation', JSON.stringify(donatedArray));
+            swal("Thanks!", "You have donated successfully!", "success");
+        }
+        else {
+            const isExist = donated.find(donate => donate.id === id)
+            // console.log(isExist);
+            if (!isExist) {
+                donatedArray.push(...donated, donation);
+                localStorage.setItem('donation', JSON.stringify(donatedArray))
+                swal("Thanks!", "You have donated successfully!", "success");
+            }
+            else{
+                swal("Sorry!", "You have already donated", "error");
+            }
+        }
+
+
+    }
 
     const buttonBackground = {
         background: text_button_bg,
@@ -27,7 +54,9 @@ function DonationCards({ donation }) {
                 <div className='absolute inset-x-0 bg-black opacity-60 bottom-0 h-1/4'>
                 </div>
                 <div className='absolute inset-x-0 bottom-0 h-1/6 left-5 lg:left-10'>
-                    <button className='text-white text-xs md:text-base lg:text-xl font-semibold py-2 px-3 lg:px-5 rounded-md' style={buttonBackground}>Donate ${price}</button>
+                    <button
+                        onClick={handleDonate}
+                        className='text-white text-xs md:text-base lg:text-xl font-semibold py-2 px-3 lg:px-5 rounded-md' style={buttonBackground}>Donate ${price}</button>
                 </div>
             </div>
 
