@@ -39,7 +39,7 @@
         "category": "Education",
         "category_bg": "#00ff0033",
         "card_bg": "#00ff001a",
-        "text_button_bg": "#00ff00e6",
+        "text_button_bg": "#006400",
         "description": "Promote education in low-income areas by donating books and educational materials to underprivileged schools. Your support enriches the learning experience for children in under-served communities, empowering them with knowledge and opportunities for a brighter future.",
         "price": 250
     },
@@ -61,7 +61,7 @@
         "category": "Education",
         "category_bg": "#00ff0033",
         "card_bg": "#00ff001a",
-        "text_button_bg": "#00ff00e6",
+        "text_button_bg": "#006400",
         "description": "Empower underprivileged children with the gift of education. Your support ensures that deserving students, regardless of their economic circumstances, have access to quality education. By breaking the cycle of poverty, we pave the way for a brighter future for these young minds.",
         "price": 300
     },
@@ -116,7 +116,7 @@
         "category": "Education",
         "category_bg": "#00ff0033",
         "card_bg": "#00ff001a",
-        "text_button_bg": "#00ff00e6",
+        "text_button_bg": "#006400",
         "description": "Support the construction of schools and the provision of quality education in remote areas of developing countries. Your contribution bridges the educational gap, offering children in under-served communities the opportunity to learn, grow, and create a brighter future for themselves and their communities.",
         "price": 400
     },

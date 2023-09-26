@@ -18,16 +18,16 @@ function DonationCards({ donation }) {
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '55vh'
+        height: '70vh'
     }
     return (
         <div className='space-y-5'>
             <div className='relative' style={backgroundImage}>
                 {/* <img src={image} alt={title} /> */}
-                <div className='absolute inset-0 bg-black opacity-50 top-96'>
+                <div className='absolute inset-x-0 bg-black opacity-60 bottom-0 h-1/4'>
                 </div>
-                <div>
-                    <button className='text-white text-xl font-semibold py-2 px-5 rounded-md ml-10 bottom-10 absolute' style={buttonBackground}>Donate {price}</button>
+                <div className='absolute inset-x-0 bottom-0 h-1/6 left-5 lg:left-10'>
+                    <button className='text-white text-xs md:text-base lg:text-xl font-semibold py-2 px-3 lg:px-5 rounded-md' style={buttonBackground}>Donate ${price}</button>
                 </div>
             </div>
 
