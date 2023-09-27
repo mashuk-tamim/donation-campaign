@@ -87,12 +87,12 @@ const Statistics = () => {
             {/* Legend */}
             <div className="flex flex-col md:flex-row gap-2 md:gap-10 mt-0 justify-center items-center">
                 <div className="flex items-center gap-3 text-sm md:text-base">
-                    <span>Total Donation</span>
-                    <div className="w-14 lg:w-20 h-2 lg:h-3 rounded-sm bg-[#FF444A] mr-2"></div>
-                </div>
-                <div className="flex items-center gap-3 text-sm md:text-base">
                     <span>Your Donation</span>
                     <div className="w-14 lg:w-20 h-2 lg:h-3 rounded-sm bg-[#00C49F] mr-2"></div>
+                </div>
+                <div className="flex items-center gap-3 text-sm md:text-base">
+                    <span>Total Donation</span>
+                    <div className="w-14 lg:w-20 h-2 lg:h-3 rounded-sm bg-[#FF444A] mr-2"></div>
                 </div>
             </div>
 

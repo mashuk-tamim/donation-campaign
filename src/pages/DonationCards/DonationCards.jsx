@@ -29,7 +29,7 @@ function DonationCards({ donation }) {
                 localStorage.setItem('donation', JSON.stringify(donatedArray))
                 swal("Thanks!", "You have donated successfully!", "success");
             }
-            else{
+            else {
                 swal("Sorry!", "You have already donated", "error");
             }
         }
@@ -45,13 +45,14 @@ function DonationCards({ donation }) {
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '70vh'
+        height: '70vh',
+        borderRadius: 10,
     }
     return (
         <div className='space-y-5'>
             <div className='relative' style={backgroundImage}>
                 {/* <img src={image} alt={title} /> */}
-                <div className='absolute inset-x-0 bg-black opacity-60 bottom-0 h-1/4'>
+                <div className='absolute inset-x-0 bg-black opacity-60 bottom-0 h-1/4 rounded-br-lg rounded-bl-lg'>
                 </div>
                 <div className='absolute inset-x-0 bottom-0 h-1/6 left-5 lg:left-10'>
                     <button
@@ -60,7 +61,7 @@ function DonationCards({ donation }) {
                 </div>
             </div>
 
-            <h2 className='text-[#0B0B0B] text-xl lg:text-4xl font-bold'>{title}</h2>
+            <h2 className='text-[#0B0B0B] text-xl md:text-3xl lg:text-5xl font-bold'>{title}</h2>
             <p className='text-[#0b0b0bb3] text-sm md:text-base'>{description}</p>
         </div>
     );

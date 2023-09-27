@@ -19,7 +19,7 @@ const DonationDetails = () => {
     }, [donations, id])
 
     return (
-        <div>
+        <div className="px-6 md:px-10 lg:px-10">
             {
                 <DonationCards donation={donation}></DonationCards>
             }
