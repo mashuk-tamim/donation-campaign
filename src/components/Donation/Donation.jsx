@@ -21,7 +21,7 @@ function Donation({ donation }) {
     }
 
     return (
-        <div className='flex flex-wrap'>
+        <div className=''>
             <Link to={`/donations/${id}`}>
                 <div className='h-3/5'>
                     <img className='rounded-tr-md rounded-tl-md h-full w-full' src={image} alt={title} />

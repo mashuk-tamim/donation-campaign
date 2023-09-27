@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 DonatedDetails.propTypes = {
@@ -24,21 +24,23 @@ function DonatedDetails({ donation }) {
         color: text_button_bg
     }
     return (
-            <div className='flex'>
-                <div className='w-1/3 flex items-stretch'>
-                    <img className='rounded-tl-lg rounded-bl-lg h-full w-full' src={image} alt={title} />
-                </div>
-                <div className='w-2/3 rounded-br-lg rounded-tr-lg p-5 lg:space-y-2' style={cardBackground}>
-                    <p className='text-xs lg:text-base inline-block rounded-md font-medium py-1 px-3 bg-violet-300' style={categoryBackground}>{category}</p>
-                    <h3 className='text-lg lg:text-2xl text-[#0B0B0B] font-semibold'>{title}</h3>
-                    <p className='text-xs lg:text-base font-semibold mb-1' style={textColor}>${price}.00</p>
+        <div className='flex'>
+            <div className='w-1/3 flex items-stretch'>
+                <img className='rounded-tl-lg rounded-bl-lg h-full w-full' src={image} alt={title} />
+            </div>
+            <div className='w-2/3 rounded-br-lg rounded-tr-lg p-5 lg:space-y-2' style={cardBackground}>
+                <p className='text-xs lg:text-base inline-block rounded-md font-medium py-1 px-3 bg-violet-300' style={categoryBackground}>{category}</p>
+                <h3 className='text-lg lg:text-2xl text-[#0B0B0B] font-semibold'>{title}</h3>
+                <p className='text-xs lg:text-base font-semibold mb-1' style={textColor}>${price}.00</p>
+                <Link to={`/donations/${id}`}>
                     <button
                         className='text-white text-xs md:text-base lg:text-lg font-semibold py-2 px-3 lg:px-5 rounded-md'
                         style={ButtonBackground}>
                         View Details
                     </button>
-                </div>
+                </Link>
             </div>
+        </div>
     );
 }
 

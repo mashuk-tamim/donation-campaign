@@ -78,7 +78,7 @@ function Donations({ donations }) {
                         className="btn rounded-r-md bg-[#FF444A] text-white py-1 lg:py-2 px-3 lg:px-5 font-semibold">Search</button>
                 </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5 mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5 px-5 mx-auto'>
                 {
                     displayDonation?.map(donation => <Donation
                         key={donation.id}
