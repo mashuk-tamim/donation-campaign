@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="flex items-center justify-around lg:justify-between py-5 lg:py-8">
             <Logo></Logo>
-            <ul className="flex justify-end gap-3 lg:gap-10 text-sm lg:text-xl">
+            <ul className="flex justify-end gap-3 lg:gap-10 text-sm lg:text-lg">
                 <li>
                     <NavLink
                         to="/"

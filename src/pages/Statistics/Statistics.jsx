@@ -10,7 +10,7 @@ const Statistics = () => {
     const [yourDonation, setYourDonation] = useState(0);
 
     const allDonations = useLoaderData();
-    
+
 
     const donated = JSON.parse(localStorage.getItem('donation'))
     console.log(donated)
@@ -25,7 +25,7 @@ const Statistics = () => {
 
             console.log('total donation length', total)
 
-            let yourPercentage = (donatedLength / total)*100;
+            let yourPercentage = (donatedLength / total) * 100;
             yourPercentage = parseFloat(yourPercentage.toFixed(2));
 
             const totalPercentage = 100 - yourPercentage;
@@ -35,7 +35,7 @@ const Statistics = () => {
             setYourDonation(yourPercentage)
             setTotalDonation(totalPercentage)
         }
-        else{
+        else {
             setYourDonation(0);
             setTotalDonation(allDonations.length)
         }
@@ -50,14 +50,14 @@ const Statistics = () => {
     const COLORS = ['#FF444A', '#00C49F'];
 
     const RADIAN = Math.PI / 180;
-    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent}) => {
+    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
         const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
         const x = cx + radius * Math.cos(-midAngle * RADIAN);
         const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
         return (
             <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-                {`${(percent * 100).toFixed(2)}%`}
+                {`${(percent * 100).toFixed(1)}%`}
             </text>
         );
     };
