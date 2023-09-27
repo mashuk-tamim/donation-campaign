@@ -34,7 +34,7 @@ function DonatedDetails({ donation }) {
                 <p className='text-xs lg:text-base font-semibold mb-1' style={textColor}>${price}.00</p>
                 <Link to={`/donations/${id}`}>
                     <button
-                        className='text-white text-xs md:text-base lg:text-lg font-semibold py-2 px-3 lg:px-5 rounded-md'
+                        className='text-white text-xs md:text-base lg:text-lg font-semibold py-2 px-3 lg:px-5 rounded-md mt-2'
                         style={ButtonBackground}>
                         View Details
                     </button>
