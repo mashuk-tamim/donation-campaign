@@ -10,9 +10,10 @@ const Statistics = () => {
     const [yourDonation, setYourDonation] = useState(0);
 
     const allDonations = useLoaderData();
-    // console.log(allDonations.length)
+    
 
     const donated = JSON.parse(localStorage.getItem('donation'))
+    console.log(donated)
 
     useEffect(() => {
         if (donated) {
@@ -33,6 +34,10 @@ const Statistics = () => {
 
             setYourDonation(yourPercentage)
             setTotalDonation(totalPercentage)
+        }
+        else{
+            setYourDonation(0);
+            setTotalDonation(allDonations.length)
         }
 
     }, [donated, donatedLength, allDonations.length, totalDonation])

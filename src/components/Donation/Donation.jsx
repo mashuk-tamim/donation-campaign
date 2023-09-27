@@ -1,6 +1,5 @@
 
 import PropTypes from 'prop-types';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 Donation.propTypes = {
@@ -22,7 +21,7 @@ function Donation({ donation }) {
     }
 
     return (
-        <div className=''>
+        <div className='flex flex-wrap'>
             <Link to={`/donations/${id}`}>
                 <div className='h-3/5'>
                     <img className='rounded-tr-md rounded-tl-md h-full w-full' src={image} alt={title} />
